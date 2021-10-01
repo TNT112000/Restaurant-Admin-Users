@@ -1,0 +1,46 @@
+@media (max-width:1020px){
+    .change{
+        margin:0;
+    }
+    .delete{
+        margin:0;
+    }
+    .update{
+        margin:0;
+    }
+    .table-stt{
+        width: 50px;
+    }
+    .add{
+        width: 120px;
+    }
+}
+@media (max-width:890px){
+    .change{
+        padding: 0;
+        margin-bottom: 5px;
+    }
+    .delete{
+        padding: 0;
+        margin-bottom: 5px;
+    }
+    html{
+        font-size: 12px;
+    }
+    .update{
+        padding: 0;
+        margin-bottom: 5px;
+    }
+    .add{
+        width: 90px;
+    }
+    .content-title{
+        text-align: center;
+    }
+    .nav-item:hover{
+        background-color: var(--silver--color) !important;
+    }
+    .edit-nav-link:hover{
+        color:var(--white--color) !important;
+    }
+}
